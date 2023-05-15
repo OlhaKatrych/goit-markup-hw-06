@@ -703,7 +703,9 @@ justify-content: center;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 16px;
+    padding-right: 0;
     margin-right: 24px;
+    width: 264px;
 }
 
 .subscribe-input::placeholder {
@@ -720,6 +722,7 @@ justify-content: center;
 
 .subscribe-btn {
 
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -731,7 +734,16 @@ justify-content: center;
     color: var(--color-white);
     background-color: var(--color-iris);
     border-radius: 4px;
-    padding: 8px 24px;
+    border: none;
+    padding-top: 8px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+}
+
+.subscribe-icon {
+
+    margin-left: 16px;
 }
 
                                     /*PORTFOLIO*/
