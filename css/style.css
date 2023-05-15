@@ -741,6 +741,12 @@ justify-content: center;
     padding-left: 24px;
 }
 
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+
+    background-color: var(--color-ocean);
+}
+
 .subscribe-icon {
 
     margin-left: 16px;
