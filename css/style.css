@@ -313,7 +313,6 @@ body {
         font-family: Roboto, sans-serif;
         font-weight: 500;
         font-size: 16px;
-        min-width: 105px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
@@ -322,7 +321,6 @@ body {
         text-align: center;
         padding: 16px 32px;
         border-radius: 4px;
-        margin-bottom: 188px;
         box-shadow: var(--hero-btn-shadow);
         margin: 0 auto;
         min-width: 169px;
@@ -706,6 +704,7 @@ justify-content: center;
     padding-right: 0;
     margin-right: 24px;
     width: 264px;
+    color: var(--color-white);
 }
 
 .subscribe-input::placeholder {
@@ -922,8 +921,7 @@ justify-content: center;
     left: 50%;
     width: 408px;
     min-height: 576px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 72px 24px 24px;
     background-color: var(--color-dairy);
     border-radius: 4px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -982,7 +980,6 @@ justify-content: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-    padding-top: 72px;
     margin-bottom: 16px;
     text-align: center;
     
@@ -991,14 +988,13 @@ justify-content: center;
 
 .user-form {
 
-    
+    display: block;
     margin-bottom: 4px;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
     color: var(--color-light-slate);
-    text-align: center;
+    
     
 }
 
@@ -1017,8 +1013,10 @@ justify-content: center;
     padding-left: 38px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    color: var(--color-navy-blue);
     outline: transparent;
     transition: border-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -1066,11 +1064,10 @@ justify-content: center;
     padding-top: 8px;
     padding-left: 16px;
     margin-bottom: 16px;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: var(--color-navy-blue);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     outline: transparent;
@@ -1088,7 +1085,6 @@ justify-content: center;
 .form-agreement {
 
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 24px;
     gap: 8px;
@@ -1146,16 +1142,14 @@ justify-content: center;
 .form-btn {
 
     display: flex;
-    align-items: center;
-    text-align: center;
     margin: 0 auto;
     padding: 16px 32px;
-    margin-bottom: 24px;
     background-color: var(--color-iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
     outline: transparent;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
